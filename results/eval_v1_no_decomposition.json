@@ -1,0 +1,647 @@
+{
+  "summary": {
+    "questions": 10,
+    "answer_sentences": 16,
+    "supported_by_some_source": 0.75,
+    "sentences_with_a_citation": 0.625,
+    "citation_points_to_entailing_source": 0.375,
+    "claims_lost_removing_cited_source": 0.7666666666666667,
+    "claims_lost_removing_uncited_source": 0.2,
+    "cited_sources_whose_removal_changes_nothing": "2/15"
+  },
+  "records": [
+    {
+      "question": "What does the cerebellum do?",
+      "answer": "The cerebellum coordinates body movements and works with the cerebrum to control balance and mental dexterity. [1], [3]",
+      "sources": [
+        "Cerebellum",
+        "Goldfish",
+        "Cerebellum",
+        "Cerebrum"
+      ],
+      "support": [
+        {
+          "text": "The cerebellum coordinates body movements and works with the cerebrum to control balance and mental dexterity.",
+          "cites": [
+            1,
+            3
+          ],
+          "abstain": false,
+          "best_source": 1,
+          "p_entail": 0.9459704756736755,
+          "supported": true,
+          "citation_ok": true
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 1.0,
+          "lost_claims": [
+            "The cerebellum coordinates body movements and works with the cerebrum to control balance and mental dexterity."
+          ],
+          "new_answer": "The cerebellum coordinates body movements and controls internal organ functions, helping to maintain balance. [2]"
+        },
+        {
+          "removed": 2,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "The cerebellum controls balance and coordinates movement by combining signals from the eyes, muscle spindles, and ears with motor commands from the forebrain. More advanced regions may be crucial to language and mental dexterity. [1]"
+        },
+        {
+          "removed": 3,
+          "change": 1.0,
+          "lost_claims": [
+            "The cerebellum coordinates body movements and works with the cerebrum to control balance and mental dexterity."
+          ],
+          "new_answer": "The cerebellum works mainly to control balance and coordinate movement. It also combines signals from the eyes, muscle spindles, and ears with motor commands from the forebrain and helps to coordinate control of the body. [1]"
+        },
+        {
+          "removed": 4,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "The cerebellum coordinates body movements and combines signals from the eyes, muscle spindles, and ears with motor commands from the forebrain to control balance and movement. More advanced regions may be crucial to language and mental dexterity."
+        }
+      ],
+      "cited": [
+        1,
+        3
+      ]
+    },
+    {
+      "question": "Where is the Sistine Chapel and who painted its ceiling?",
+      "answer": "The Sistine Chapel is near St. Peter's Basilica. Michelangelo painted its ceiling. [2], [1]",
+      "sources": [
+        "Chapel",
+        "Michelangelo",
+        "Sistine Chapel",
+        "Paint"
+      ],
+      "support": [
+        {
+          "text": "The Sistine Chapel is near St. Peter's Basilica.",
+          "cites": [],
+          "abstain": false,
+          "best_source": 2,
+          "p_entail": 0.9895613789558411,
+          "supported": true,
+          "citation_ok": false
+        },
+        {
+          "text": "Michelangelo painted its ceiling.",
+          "cites": [
+            2,
+            1
+          ],
+          "abstain": false,
+          "best_source": 1,
+          "p_entail": 0.9876987934112549,
+          "supported": true,
+          "citation_ok": true
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "The Sistine Chapel is near St. Peter's Basilica. Michelangelo painted its ceiling. [1], [3]"
+        },
+        {
+          "removed": 2,
+          "change": 0.5,
+          "lost_claims": [
+            "The Sistine Chapel is near St. Peter's Basilica."
+          ],
+          "new_answer": "The Sistine Chapel is located at the Vatican Palace. The ceiling of the Sistine Chapel was painted by Michelangelo."
+        },
+        {
+          "removed": 3,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "The Sistine Chapel is located near St. Peter's Basilica. Michelangelo painted its ceiling. [2]"
+        },
+        {
+          "removed": 4,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "The Sistine Chapel is near St. Peter's Basilica. Michelangelo painted its ceiling. [2]"
+        }
+      ],
+      "cited": [
+        1,
+        2
+      ]
+    },
+    {
+      "question": "What is lithium carbonate used for?",
+      "answer": "Lithium carbonate is used in various medications for treating bipolar disorder, in fireworks to make a bright red color, in processing metal oxides, in making glass, in glazing ceramics, in drying cement, in making lithium ion batteries, in carbon dioxide detectors, and in making the cathodes of most lithium-ion batteries, which are made from lithium cobalt oxide. [1]",
+      "sources": [
+        "Lithium carbonate",
+        "Lithium carbonate",
+        "Lithium hydroxide",
+        "Lithium oxide"
+      ],
+      "support": [
+        {
+          "text": "Lithium carbonate is used in various medications for treating bipolar disorder, in fireworks to make a bright red color, in processing metal oxides, in making glass, in glazing ceramics, in drying cement, in making lithium ion batteries, in carbon dioxide detectors, and in making the cathodes of most lithium-ion batteries, which are made from lithium cobalt oxide.",
+          "cites": [
+            1
+          ],
+          "abstain": false,
+          "best_source": 1,
+          "p_entail": 0.9931159615516663,
+          "supported": true,
+          "citation_ok": true
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 1.0,
+          "lost_claims": [
+            "Lithium carbonate is used in various medications for treating bipolar disorder, in fireworks to make a bright red color, in processing metal oxides, in making glass, in glazing ceramics, in drying cement, in making lithium ion batteries, in carbon dioxide detectors, and in making the cathodes of most lithium-ion batteries, which are made from lithium cobalt oxide."
+          ],
+          "new_answer": "Lithium carbonate is used in spaceships to absorb carbon dioxide, preventing suffocation. It is also used to make lithium greases that are resistant to water and can be used in various temperature conditions."
+        },
+        {
+          "removed": 2,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Lithium carbonate is used in various medications for treating bipolar disorder. It is also used in fireworks to make a bright red color. It is used in processing metal oxides. It can be used to make glass. It is used to glaze ceramics. It can also be used to dry cement. It is used in making lithium ion batteries. It is used in carbon dioxide detectors. It is also used to make the cathodes of most lithium-ion batteries, which are made from lithium cobalt oxide. [1]"
+        },
+        {
+          "removed": 3,
+          "change": 1.0,
+          "lost_claims": [
+            "Lithium carbonate is used in various medications for treating bipolar disorder, in fireworks to make a bright red color, in processing metal oxides, in making glass, in glazing ceramics, in drying cement, in making lithium ion batteries, in carbon dioxide detectors, and in making the cathodes of most lithium-ion batteries, which are made from lithium cobalt oxide."
+          ],
+          "new_answer": "Lithium carbonate is used in making lithium ion batteries, carbon dioxide detectors, and as a component in the cathodes of lithium-ion batteries, which are made from lithium cobalt oxide. It is also used to make the cathodes of most lithium-ion batteries. [1]"
+        },
+        {
+          "removed": 4,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Lithium carbonate is used in various medications for treating bipolar disorder, in fireworks to make a bright red color, in processing metal oxides, in making glass, in glazing ceramics, in drying cement, in making lithium ion batteries, in carbon dioxide detectors, and in making the cathodes of most lithium-ion batteries, which are made from lithium cobalt oxide. [1]"
+        }
+      ],
+      "cited": [
+        1
+      ]
+    },
+    {
+      "question": "What is a pulley?",
+      "answer": "A pulley is a simple machine used to lift heavy objects, and it can be a modified form of a block and tackle system. Pulleys are often used in sets to reduce the force needed to lift something. [1]",
+      "sources": [
+        "Pulley",
+        "Sheave (mechanical)",
+        "Pulley",
+        "Archimedes"
+      ],
+      "support": [
+        {
+          "text": "A pulley is a simple machine used to lift heavy objects, and it can be a modified form of a block and tackle system.",
+          "cites": [],
+          "abstain": false,
+          "best_source": 1,
+          "p_entail": 0.9893690347671509,
+          "supported": true,
+          "citation_ok": false
+        },
+        {
+          "text": "Pulleys are often used in sets to reduce the force needed to lift something.",
+          "cites": [
+            1
+          ],
+          "abstain": false,
+          "best_source": 1,
+          "p_entail": 0.9950356483459473,
+          "supported": true,
+          "citation_ok": true
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 1.0,
+          "lost_claims": [
+            "A pulley is a simple machine used to lift heavy objects, and it can be a modified form of a block and tackle system.",
+            "Pulleys are often used in sets to reduce the force needed to lift something."
+          ],
+          "new_answer": "A pulley is a wheel or roller with a groove along its edge for holding a belt, rope, or cable, and can be used to lift heavy objects or change the direction of a force [1]. Pulleys are useful in construction sites [2]."
+        },
+        {
+          "removed": 2,
+          "change": 0.5,
+          "lost_claims": [
+            "Pulleys are often used in sets to reduce the force needed to lift something."
+          ],
+          "new_answer": "A pulley is a simple machine used to lift heavy objects, and a block and tackle system is a modified form of a pulley. [1] Pulleys are also used in construction sites. [2] Additionally, Archimedes developed a compound pulley system that allows one person to pull a large ship with just one rope. [3]"
+        },
+        {
+          "removed": 3,
+          "change": 0.5,
+          "lost_claims": [
+            "Pulleys are often used in sets to reduce the force needed to lift something."
+          ],
+          "new_answer": "A pulley is a simple machine used to lift heavy objects, and a block and tackle system is a modified form of a pulley. [1]"
+        },
+        {
+          "removed": 4,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "A pulley is a simple machine used to lift heavy objects, and it can be part of a block and tackle system. [1] Pulleys are often used in sets to reduce the force needed to lift something. [3] Sheaves, which are wheels with grooves for belts, ropes, or cables, are sometimes used interchangeably with pulleys. [2]"
+        }
+      ],
+      "cited": [
+        1
+      ]
+    },
+    {
+      "question": "What is Remembrance Day?",
+      "answer": "Remembrance Day is a day to remember people who fought and died in wars, observed on November 11. It includes a ceremony at 11:00 AM where \"The Last Post\" is played on a bugle, followed by two minutes of silence, and then \"Reveille\" is played. The day is also marked by wearing poppies, which are symbolic of the Armistice Day of World War I. It was started in 1919 by King George V of the United Kingdom, and other countries have similar days to remember war and soldiers. [1][2][3][4]",
+      "sources": [
+        "Remembrance Day",
+        "Remembrance Day",
+        "Poppy",
+        "Remembrance Day"
+      ],
+      "support": [
+        {
+          "text": "Remembrance Day is a day to remember people who fought and died in wars, observed on November 11.",
+          "cites": [],
+          "abstain": false,
+          "best_source": 1,
+          "p_entail": 0.9827318787574768,
+          "supported": true,
+          "citation_ok": false
+        },
+        {
+          "text": "It includes a ceremony at 11:00 AM where \"The Last Post\" is played on a bugle, followed by two minutes of silence, and then \"Reveille\" is played.",
+          "cites": [],
+          "abstain": false,
+          "best_source": 2,
+          "p_entail": 0.9906190633773804,
+          "supported": true,
+          "citation_ok": false
+        },
+        {
+          "text": "The day is also marked by wearing poppies, which are symbolic of the Armistice Day of World War I. It was started in 1919 by King George V of the United Kingdom, and other countries have similar days to remember war and soldiers.",
+          "cites": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "abstain": false,
+          "best_source": 4,
+          "p_entail": 0.05563214421272278,
+          "supported": false,
+          "citation_ok": false
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 1.0,
+          "lost_claims": [
+            "Remembrance Day is a day to remember people who fought and died in wars, observed on November 11.",
+            "It includes a ceremony at 11:00 AM where \"The Last Post\" is played on a bugle, followed by two minutes of silence, and then \"Reveille\" is played.",
+            "The day is also marked by wearing poppies, which are symbolic of the Armistice Day of World War I. It was started in 1919 by King George V of the United Kingdom, and other countries have similar days to remember war and soldiers."
+          ],
+          "new_answer": "Remembrance Day is a day to remember war and soldiers. It started in 1919 by King George V of the United Kingdom. Other countries like the United States and France also have similar days to remember war and soldiers. [3]"
+        },
+        {
+          "removed": 2,
+          "change": 0.6666666666666666,
+          "lost_claims": [
+            "Remembrance Day is a day to remember people who fought and died in wars, observed on November 11.",
+            "It includes a ceremony at 11:00 AM where \"The Last Post\" is played on a bugle, followed by two minutes of silence, and then \"Reveille\" is played."
+          ],
+          "new_answer": "Remembrance Day is a day to remember people who fought and died in wars, observed on November 11. It is symbolized by the bright red poppy flowers, which are used to commemorate the Armistice Day of World War I. It was started in 1919 by King George V of the United Kingdom, and other countries also have days to remember war and soldiers on this day. [1], [2], [3]"
+        },
+        {
+          "removed": 3,
+          "change": 0.6666666666666666,
+          "lost_claims": [
+            "It includes a ceremony at 11:00 AM where \"The Last Post\" is played on a bugle, followed by two minutes of silence, and then \"Reveille\" is played.",
+            "The day is also marked by wearing poppies, which are symbolic of the Armistice Day of World War I. It was started in 1919 by King George V of the United Kingdom, and other countries have similar days to remember war and soldiers."
+          ],
+          "new_answer": "Remembrance Day is observed on November 11 to remember people who fought and died in wars, particularly World War I, which ended on that day in 1918 with the Armistice with Germany. It includes a ceremony at 11:00 AM where \"The Last Post\" is played on a bugle, followed by two minutes of silence, and then \"Reveille\" is played. It was initiated in 1919 by King George V of the United Kingdom, and other countries have similar days to remember war and soldiers. [1], [2], [3]"
+        },
+        {
+          "removed": 4,
+          "change": 0.6666666666666666,
+          "lost_claims": [
+            "It includes a ceremony at 11:00 AM where \"The Last Post\" is played on a bugle, followed by two minutes of silence, and then \"Reveille\" is played.",
+            "The day is also marked by wearing poppies, which are symbolic of the Armistice Day of World War I. It was started in 1919 by King George V of the United Kingdom, and other countries have similar days to remember war and soldiers."
+          ],
+          "new_answer": "Remembrance Day is a day to remember people who fought and died in wars, observed on November 11. At 11:00 AM, a ceremony includes playing \"The Last Post\" on a bugle and two minutes of silence, symbolized by the bright red Poppy flowers."
+        }
+      ],
+      "cited": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "question": "Where does the harbor seal live?",
+      "answer": "Harbor seals live in coastal waters of the northern Atlantic and Pacific ocean as well as Baltic and North Seas [3].",
+      "sources": [
+        "Goat Rock Beach",
+        "Polar bear",
+        "Harbor seal",
+        "Sydney Aquarium"
+      ],
+      "support": [
+        {
+          "text": "Harbor seals live in coastal waters of the northern Atlantic and Pacific ocean as well as Baltic and North Seas.",
+          "cites": [
+            3
+          ],
+          "abstain": false,
+          "best_source": 3,
+          "p_entail": 0.9914759993553162,
+          "supported": true,
+          "citation_ok": true
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "The harbor seal lives in coastal waters of the northern Atlantic and Pacific ocean as well as Baltic and North Seas [2]."
+        },
+        {
+          "removed": 2,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "The harbor seal (\"Phoca vitulina\"), also called the common seal, is a true seal. They are found in coastal waters of the northern Atlantic and Pacific ocean as well as Baltic and North Seas making them the most wide-ranging of the pinnipeds (walruses, eared seals, and true seals). [2]"
+        },
+        {
+          "removed": 3,
+          "change": 1.0,
+          "lost_claims": [
+            "Harbor seals live in coastal waters of the northern Atlantic and Pacific ocean as well as Baltic and North Seas."
+          ],
+          "new_answer": "Harbor seals live in Goat Rock Beach as mentioned in source [1]."
+        },
+        {
+          "removed": 4,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Harbor seals live in coastal waters of the northern Atlantic and Pacific oceans as well as the Baltic and North Seas, making them the most wide-ranging of the pinnipeds [3]."
+        }
+      ],
+      "cited": [
+        3
+      ]
+    },
+    {
+      "question": "What are amino acids?",
+      "answer": "Amino acids are organic molecules with both amine (NH+R) and carboxyl (C=O) functional groups, typically with the general formula HNCHRCOOH, where R is a side group. They are crucial in biochemistry and are either synthesized or obtained from food, which are then used to produce proteins through processes like transcription, translation, and RNA splicing. [2]",
+      "sources": [
+        "Amino acid",
+        "Amino acid",
+        "Protein biosynthesis",
+        "Protein"
+      ],
+      "support": [
+        {
+          "text": "Amino acids are organic molecules with both amine (NH+R) and carboxyl (C=O) functional groups, typically with the general formula HNCHRCOOH, where R is a side group.",
+          "cites": [],
+          "abstain": false,
+          "best_source": 2,
+          "p_entail": 0.3439997434616089,
+          "supported": false,
+          "citation_ok": false
+        },
+        {
+          "text": "They are crucial in biochemistry and are either synthesized or obtained from food, which are then used to produce proteins through processes like transcription, translation, and RNA splicing.",
+          "cites": [
+            2
+          ],
+          "abstain": false,
+          "best_source": 4,
+          "p_entail": 0.045333150774240494,
+          "supported": false,
+          "citation_ok": false
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 1.0,
+          "lost_claims": [
+            "Amino acids are organic molecules with both amine (NH+R) and carboxyl (C=O) functional groups, typically with the general formula HNCHRCOOH, where R is a side group.",
+            "They are crucial in biochemistry and are either synthesized or obtained from food, which are then used to produce proteins through processes like transcription, translation, and RNA splicing."
+          ],
+          "new_answer": "Amino acids are molecules with both amine (NH+R) and carboxyl (C=O) functional groups. In biochemistry, they are specifically referred to as alpha-amino acids with the general formula HNCHRCOOH, where R represents various side groups. [1]"
+        },
+        {
+          "removed": 2,
+          "change": 1.0,
+          "lost_claims": [
+            "Amino acids are organic molecules with both amine (NH+R) and carboxyl (C=O) functional groups, typically with the general formula HNCHRCOOH, where R is a side group.",
+            "They are crucial in biochemistry and are either synthesized or obtained from food, which are then used to produce proteins through processes like transcription, translation, and RNA splicing."
+          ],
+          "new_answer": "Amino acids are organic chemical compounds that are either synthesized or obtained from food, and they are used in the process of protein biosynthesis to form proteins [2]."
+        },
+        {
+          "removed": 3,
+          "change": 0.5,
+          "lost_claims": [
+            "They are crucial in biochemistry and are either synthesized or obtained from food, which are then used to produce proteins through processes like transcription, translation, and RNA splicing."
+          ],
+          "new_answer": "Amino acids are organic molecules with both amine (NH+R) and carboxyl (C=O) functional groups, typically found in alpha-amino acids with the general formula HNCHRCOOH, where R represents various side groups. [2]"
+        },
+        {
+          "removed": 4,
+          "change": 0.5,
+          "lost_claims": [
+            "They are crucial in biochemistry and are either synthesized or obtained from food, which are then used to produce proteins through processes like transcription, translation, and RNA splicing."
+          ],
+          "new_answer": "Amino acids are organic molecules with both amine (NH+R) and carboxyl (C=O) functional groups, typically found in alpha-amino acids with the general formula HNCHRCOOH, where R represents various side groups. [2]"
+        }
+      ],
+      "cited": [
+        2
+      ]
+    },
+    {
+      "question": "What is a prognosis in medicine?",
+      "answer": "Prognosis refers to the expected course/outcome of a disease [2].",
+      "sources": [
+        "Prognosis",
+        "Wilms tumor",
+        "Pancreatic cancer",
+        "Ancient Egypt"
+      ],
+      "support": [
+        {
+          "text": "Prognosis refers to the expected course/outcome of a disease.",
+          "cites": [
+            2
+          ],
+          "abstain": false,
+          "best_source": 1,
+          "p_entail": 0.9901456236839294,
+          "supported": true,
+          "citation_ok": false
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Prognosis refers to the expected outcome or course of a disease, such as the survival rate for a specific condition. For example, Wilms' tumor has an excellent prognosis with 90% of patients living for more than five years after being diagnosed, while pancreatic cancer has a poor prognosis with less than 5% of patients surviving beyond five years after diagnosis [1, 2]."
+        },
+        {
+          "removed": 2,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Prognosis refers to the expected course/outcome of a disease [2]."
+        },
+        {
+          "removed": 3,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Prognosis refers to the expected course/outcome of a disease [2]."
+        },
+        {
+          "removed": 4,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Prognosis refers to the expected course/outcome of a disease [2]."
+        }
+      ],
+      "cited": [
+        2
+      ]
+    },
+    {
+      "question": "Where is Bayreuth?",
+      "answer": "Bayreuth is a town in northern Bavaria, Germany, and is the capital of Upper Franconia. [2]",
+      "sources": [
+        "Upper Franconia Government Region",
+        "Bayreuth",
+        "Bayreuth",
+        "Hans Richter"
+      ],
+      "support": [
+        {
+          "text": "Bayreuth is a town in northern Bavaria, Germany, and is the capital of Upper Franconia.",
+          "cites": [
+            2
+          ],
+          "abstain": false,
+          "best_source": 1,
+          "p_entail": 0.029113756492733955,
+          "supported": false,
+          "citation_ok": false
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 1.0,
+          "lost_claims": [
+            "Bayreuth is a town in northern Bavaria, Germany, and is the capital of Upper Franconia."
+          ],
+          "new_answer": "Bayreuth is a town in northern Bavaria, Germany. [1]"
+        },
+        {
+          "removed": 2,
+          "change": 1.0,
+          "lost_claims": [
+            "Bayreuth is a town in northern Bavaria, Germany, and is the capital of Upper Franconia."
+          ],
+          "new_answer": "Bayreuth is located in the Upper Franconia region of Bavaria, Germany. [1]"
+        },
+        {
+          "removed": 3,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Bayreuth is a town in northern Bavaria, Germany. It is the capital of Upper Franconia. [2]"
+        },
+        {
+          "removed": 4,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "Bayreuth is a town in northern Bavaria, Germany, and is the capital of Upper Franconia. [2]"
+        }
+      ],
+      "cited": [
+        2
+      ]
+    },
+    {
+      "question": "What does a playwright do?",
+      "answer": "A playwright is a person who writes plays for the stage. They are also referred to as dramatists when their work is intended for performance. [2]",
+      "sources": [
+        "Playwright",
+        "Playwright",
+        "Playwright",
+        "Theatre"
+      ],
+      "support": [
+        {
+          "text": "A playwright is a person who writes plays for the stage.",
+          "cites": [],
+          "abstain": false,
+          "best_source": 2,
+          "p_entail": 0.8553640246391296,
+          "supported": true,
+          "citation_ok": false
+        },
+        {
+          "text": "They are also referred to as dramatists when their work is intended for performance.",
+          "cites": [
+            2
+          ],
+          "abstain": false,
+          "best_source": 2,
+          "p_entail": 0.6696839332580566,
+          "supported": true,
+          "citation_ok": true
+        }
+      ],
+      "dependence": [
+        {
+          "removed": 1,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "A playwright writes plays for the stage. Important ancient Greek playwrights like Aeschylus, Sophocles, Euripides, and Aristophanes wrote plays that are still studied today and influenced modern playwrights [2]."
+        },
+        {
+          "removed": 2,
+          "change": 1.0,
+          "lost_claims": [
+            "A playwright is a person who writes plays for the stage.",
+            "They are also referred to as dramatists when their work is intended for performance."
+          ],
+          "new_answer": "A playwright writes plays. [2]\n\nAdditional information: In ancient Greece, playwrights were part of competitions where their plays were performed outdoors in amphitheatres, and the winners received prizes. [3]"
+        },
+        {
+          "removed": 3,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "A playwright writes plays for the stage. They can also write dramas that are meant to be read rather than performed. [2]"
+        },
+        {
+          "removed": 4,
+          "change": 0.0,
+          "lost_claims": [],
+          "new_answer": "A playwright writes plays for the stage. They can also write dramas that are meant to be read but not played. [2]"
+        }
+      ],
+      "cited": [
+        2
+      ]
+    }
+  ]
+}
