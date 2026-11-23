@@ -1,5 +1,9 @@
 # rag-wiki-faithfulness
 
+**What:** RAG over Simple English Wikipedia with a local LLM, plus two checks on whether its citations are real (NLI support and leave-one-source-out).  
+**Result:** 3 of 15 cited sources (20%) made no difference to the answer when removed; removing a cited source lost 67% of claims, an uncited one 18%.  
+**Stack:** Python, Ollama (Qwen 2.5 3B), sentence-transformers, DeBERTa NLI
+
 RAG over Simple English Wikipedia, plus two checks on the answers:
 
 - **support**: is each claim in the answer actually written in one of the retrieved sources?
