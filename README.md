@@ -61,16 +61,13 @@ nothing. Only [2] matters.
 
 ## Results
 
-10 questions, using the first 20k articles only.
+I tested it on 10 questions, using only the first 20k articles. Out of 16 answer sentences,
+14 were supported by one of the sources, and 10 had a citation. When a sentence cited a
+source, that source really supported it in 9 of 10 cases.
 
-| | |
-|---|---|
-| answer sentences supported by a source | 14 / 16 |
-| sentences with a citation | 10 / 16 |
-| cited sentences where the cited source really supports it | 9 / 10 |
-| claims lost when removing a cited source | 67% |
-| claims lost when removing an uncited source | 18% |
-| cited sources where removing them changed nothing | 3 / 15 |
+The dependence check is where it gets interesting. Removing a cited source and asking again
+lost 67% of the claims, removing an uncited one only 18%. But 3 of the 15 cited sources
+changed nothing at all when I removed them.
 
 So most citations mean something, but not all. Three examples where the citation looked fine
 but the answer did not depend on it:
